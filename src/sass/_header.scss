@@ -1,0 +1,225 @@
+
+header.site-header {
+	
+	.site-search .widget_product_search form:before{display: none;}
+.site-search .widget_product_search form input[type=search] {
+  background-color: transparent;
+    box-shadow: none;
+    border: 2px solid;
+    padding: 1em !important;
+    position: relative;
+    right: 152px;
+    top: 25px;
+    width: 376px;
+    border-radius: 6px;
+    border-color: var(--primary-color);
+    transition: all 0.15s ease-in-out;
+    letter-spacing: 0.06em;
+    &:focus {
+      outline: none;
+      border-width: medium;
+      box-shadow: 0px 1px 5px 1px #5500ff75;
+    }
+   @media screen and (max-width: 975px) {
+
+      right: 195px;
+   }
+
+}
+
+.widget_product_search form button[type=submit] {
+  clip-path:unset;
+  clip: unset;
+  overflow: visible;
+  color: #000;
+  right: 0;
+  left: auto;
+  background-color: transparent;
+  height: 100%;
+  width: 25%;
+  top: 25px;
+  visibility: hidden;
+  @media screen and (max-width: 1030px) {
+    
+      right: -30px;
+  }
+
+   @media screen and (max-width: 975px) {
+    
+      right: 4px;
+  }
+}
+
+ .site-branding img {
+  width: 140px;
+  height: 105px;
+   @media screen and (max-width: 768px) {
+      width: 100px; 
+      height: 75px; 
+   }
+
+}
+
+}
+
+.site-header .custom-logo-link {
+  outline: none;
+}
+
+.custom-logo-link {
+  width: 140px;
+}
+
+.is-form-style {
+    position: absolute;
+    left: 22%;
+    width: 51%;
+    bottom: 42%;
+    @media screen and (max-width: 1030px) {
+        left: 12%;
+        width: 63%;
+        bottom: 54%;
+    }
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+
+
+}
+
+.is-form-style.is-form-style-3 input.is-search-input {
+
+    border-right: 1px solid var(--primary-color) !important;
+    padding-right: 22px;
+}
+
+.is-form-style input.is-search-input {
+    height: 49px;
+    border-radius: 46px;
+    border: 1px solid var(--primary-color) !important;
+    box-shadow:0px 0px 4px 2px #00000017;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type=search]:focus {
+  background: #fdfdfd;
+  box-shadow:0px 0px 11px 3px #ffbf0d63;
+}
+
+.is-search-icon {
+  background: transparent;
+  border: none;
+  position: relative;
+  left: 130%;
+  top: -2px;
+  pointer-events: all;
+  &:hover {background: transparent;}
+  svg {
+    width: 30px;
+    opacity: 0.6;
+    transition: all 0.3s ease-in-out;
+    &:hover{opacity: 1;}
+  }
+}
+
+#is-ajax-search-result-19 {
+  width: 44%!important;
+  left: 27% !important;
+  // background: transparent;
+  box-shadow: 0px 0px 4px 2px #00000017;
+}
+
+#is-ajax-search-details-19 {display: none !important;}
+
+.is-ajax-search-result a {
+  color: #946d02 !important;
+}
+.is-ajax-search-result .is-ajax-search-post:hover {
+  background: #f7f7f7 !important;
+}
+
+.is-search-submit {
+  pointer-events: none
+}
+
+.is-ajax-search .is-loader-image {
+  left: 40px !important;
+  right: unset !important;
+  width: 50px !important;
+  height: 50px !important;
+}
+
+
+.site-header-cart .cart-contents:after {
+
+  color: var(--primary-color);
+}
+
+
+#site-navigation {
+
+  li {
+
+    &.current-menu-item {
+
+      a {color: var(--primary-color);}
+
+    }  
+      @media screen and (max-width: 768px) {
+          text-align: center;
+      }
+
+    a {
+      color: #fff;
+      @media screen and (max-width: 768px) {
+          color: #333;
+          font-size: 1.5em; 
+      }
+      transition: all 0.3s ease-in-out;
+      &:hover {color: var(--primary-color);}
+    }
+  }
+}
+
+.storefront-primary-navigation {
+  background-color: #000;
+   @media screen and (max-width: 768px) {
+    background-color: transparent;
+   }
+
+}
+
+.site-header-cart .cart-contents .amount {
+  color: #fff;
+}
+
+.site-header-cart .cart-contents .count {
+
+  color: #fff;
+}
+
+h1.entry-title.loaded {
+
+  display: none;
+} 
+
+.entry-content.loaded {
+
+  p {
+
+    font-size: 2rem;
+    color: #fff;
+  }
+
+
+}
+
+.page-template-template-homepage.has-post-thumbnail .type-page.has-post-thumbnail {
+  display: none !important;
+}
+
+.site-header {
+
+  border:none;
+}
